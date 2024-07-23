@@ -1,0 +1,60 @@
+#arthematic operations
+'''a=int (input())
+b=int (input())
+print("sum of two numbers",a+b)
+print("sub of two numbers",a-b)
+print("mulp of two numbers",a*b)
+print("division  of two numbers",a/b)
+print("module of two numbers",a%b)
+print("pow of a b",a**b)''' #this condition for the power condition #square we use as **
+# logical operators it contain two conditions (AND,OR) if the both stmts are true we use AND,
+# if one condition is false we use OR. 
+'''age=int(input())
+if (age>18 and age<24):
+    print("two wheeler")
+elif(age>=24 and age<45):
+    print("two and four wheelers")
+elif(age>+45):
+    print("any vehicle")'''
+    #example problem for conditions:
+    '''total=700
+apple=int(input())
+banana=int(input())
+orange=int(in put())
+costapple=15
+costbanana=4
+costorg=5
+tot=(total-(apple*costapple+banana*costbanana+orange*costorg))
+if tot+total>total:
+    print("cheated")
+else:
+    print("not cheated")'''
+#example program#
+'''mr "z is selected for olympics is participating in swimming compitetion
+only one winner is selected among them and he got selected x and y are frnd of z,
+x is participating in badmanton and 
+y is participating in table tennis
+according to the selection the commity the req of badmanton players are
+140cm height,weight factors of 2,body fat is less then 12%
+according to the selection the commity the req of table tennis players are
+height 118cm to 148cm,weight is factory of no of medels won by z,body fat is 14%
+according to p[revious history z participated in 14 games out of his having
+success rate of 50%
+write a program whether x,y,z from india travel same plane are not'''
+#programming
+height_x=int(input())
+height_y=int(input())
+weight_x=float(input())
+weight_y=float(input())
+xsel=False
+ysel=False
+if((height_x=140cm and weight_x%2==0)):
+    xsel=True
+if((height_y>=118cm and height_y<=148 and weight_y%7==0)):
+    ysel=True
+if(xsel=ysel):
+    print(travel in same plane)
+else:
+    print(not travel in same plane)       
+    
+    
