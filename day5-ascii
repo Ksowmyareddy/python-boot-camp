@@ -1,0 +1,76 @@
+#sum of digits of a number using ascii values
+'''inp=input()
+sum=0
+for i in inp:
+    if(ord(i)>48 and ord(i)<57):
+        sum+=int(i)
+print(sum)'''   
+#to find lowercase letters
+'''inp=input()
+sum=0
+for i in inp:
+    if(ord(i)>97 and ord(i)<122):
+        sum+=1
+print(sum)'''
+#to find uppercase letters
+inp=input()
+sum=0
+for i in inp:
+    if(ord(i)>65 and ord(i)<90):
+        sum+=1
+print(sum)
+printing ascii values
+'''print(ord('A'))
+print(chr(65))'''
+#to print all ascii values in single line
+for i in range(32,128):
+    print(chr(i),end=" ")
+  #write a code to print all the capital letters in given string
+str=input()
+ans=""
+for i in str:
+    if(ord(i)>=65 and ord(i)<=90):
+        ans+=i
+print(ans)
+   #remove all the braces from the given algebraic expression
+  # [(a+b)+c]
+#a+b+c {--123   }==125
+#(41              )40
+#[91           ] 93 
+exp=input()
+for i in exp:
+    if(ord(i)==40 or ord(i)==41 or ord(i)==91 or ord(i)==93 or ord(i)==123 or ord(i)==125):
+        pass
+    else:
+        print(i,end="")
+print()
+  #input is given as ABC skip value is 4 so
+#after A 4values if we skip then E same as for BC
+#so output is EFG
+str="ABC"
+for i in str:
+    print(chr(ord(i)+4),end="")
+print()
+#if the input is given as XYZ then it should print ABC because after XYZ no numbers so cyclic format ABC we should print******
+#XYZ
+#x=120+3=123-26----->97=a
+#chr(123)  |
+#y=121+3=124-26----->98=b
+#chr(124)   }
+#z=122+3=125-26----->99=c
+#chr(125)    ~
+#relation is 26 so we should subtract with 26
+str="XYZ"
+for i in str:
+    print(chr((ord(i)+3)-26),end="")
+ #input is given as hello-------wo------- rld
+  -----------hello world
+str=input()
+cnt=0
+ans=""
+for i in str:
+    if(i=="-"):
+        cnt+=1
+    else:
+        ans=ans+i
+print("-"*cnt+ans)
