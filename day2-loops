@@ -1,0 +1,37 @@
+'''for loop--> they  havve two conditions in this
+for i in range(len()):--> we use when we want the index values of the list
+for i in n():--> we use when we want complete list with the values
+in strings we most of the time we use for i in n
+end(" ")--> to get in same line'''
+list=list(map(int,input().split()))
+for i in range(len(list)):
+    print(i)
+    print("-------------")
+    for i in list:
+        print(i)
+        #loop code
+        list=list(map(int,input().split()))
+        s="hello world"
+        for i in s:
+            print(i,end=" ")
+            print()
+            for i in s:
+                print(i)
+                '''using for loop print 1 to 100 num
+                append 1 to 100 num in an empty list
+                sum of all num in a list'''
+            #1.print 1 to 100
+list=list(map(int,input().split()))                
+for i in range(1,101):
+    print(i)
+#append 1 to 100 num in an empty list
+list=[]
+    for i in range(1,101):
+        list.append(i)
+        #sum of all num in list
+    for i in range(1 to 101):
+    sum+=i
+    print(i)
+    
+    
+    
