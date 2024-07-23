@@ -1,0 +1,24 @@
+#find gcd blw 2 num
+'''a=int(input())
+b=int(input())
+while b!=0:
+    a,b=b,a%b #module for we use to reduce the num  ......
+print("GCD of 2 num is:",a)'''
+#find lcm of 2 num
+'''a=int(input())
+b=int(input())
+c,d=a,b
+while b!=0:
+    a,b=b,a%b #module for we use to reduce the num  ......
+print((c*d)//a)'''
+# write a program to prime num in a given range
+'''a=int(input()) else we will take a,b=map(int,input().split())
+b=int(input())
+for i in range(a,b+1):
+    for j in range(2,i):
+        if i%j==0:
+            break
+    else:
+            print(i)'''
+#
+          
